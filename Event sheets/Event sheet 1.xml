@@ -2,5 +2,16 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="533497942604215">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="757885793675262" type="heroi">
+                    <param id="0" name="Object">inimigo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="897853023658902" type="inimigo" />
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
