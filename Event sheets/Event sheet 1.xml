@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="pontos" sid="585853401165794" static="0" type="number">0</variable>
         <event-block sid="533497942604215">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="757885793675262" type="heroi">
@@ -11,6 +12,16 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="897853023658902" type="inimigo" />
+            </actions>
+        </event-block>
+        <event-block sid="973793043561509">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="443187188821879" type="heroi">
+                    <param id="0" name="Object">moeda</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="272372641791923" type="moeda" />
             </actions>
         </event-block>
     </events>
