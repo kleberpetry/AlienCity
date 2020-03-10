@@ -31,7 +31,7 @@
             <instances>
                 <instance type="heroi" uid="0">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -55,11 +55,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>86</x>
-                        <y>439</y>
+                        <x>121</x>
+                        <y>495.5</y>
                         <z>0</z>
-                        <width>19</width>
-                        <height>106</height>
+                        <width>57</width>
+                        <height>87</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -109,8 +109,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>106</x>
-                        <y>88</y>
+                        <x>122</x>
+                        <y>491</y>
                         <z>0</z>
                         <width>66</width>
                         <height>92</height>

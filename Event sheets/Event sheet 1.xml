@@ -4,6 +4,21 @@
     <name>Event sheet 1</name>
     <events>
         <variable constant="0" name="pontos" sid="585853401165794" static="0" type="number">0</variable>
+        <event-block sid="435097193410637">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="983991976705801" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="214671845029198" type="animationhero">
+                    <param id="0" name="Object">heroi</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="681104519868153" type="animationhero">
+                    <param id="0" name="Pin to">heroi</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="533497942604215">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="757885793675262" type="heroi">
@@ -37,6 +52,50 @@
             <actions>
                 <action id="0" name="Set text" sid="432307862111106" type="placar">
                     <param id="0" name="Text">&quot;Pontos: &quot;&amp;pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="986729560223749">
+            <conditions>
+                <condition behavior="Platform" id="0" name="Is moving" sid="794348041348696" type="heroi" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="388807042393517" type="animationhero">
+                    <param id="0" name="Animation">&quot;andando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="927734908872908">
+            <conditions>
+                <condition id="-22" name="Else" sid="799722958064600" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="435675642586114" type="animationhero">
+                    <param id="0" name="Animation">&quot;parado&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="668058082570580">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="513971877352830" type="heroi" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="506816689282373" type="animationhero">
+                    <param id="0" name="Animation">&quot;pulando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="468932518935076">
+            <conditions>
+                <condition behavior="Platform" id="4" name="Is falling" sid="258253856780967" type="heroi" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="607504562252911" type="animationhero">
+                    <param id="0" name="Animation">&quot;caindo&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
