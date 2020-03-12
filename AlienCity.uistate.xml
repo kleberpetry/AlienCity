@@ -29,10 +29,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/heroi/" />
-        <folder expanded="1" path="animation-folder/base/" />
         <folder expanded="1" path="animation-folder/animationhero/" />
-        <folder expanded="1" path="animation-folder/inimigo/" />
         <folder expanded="1" path="animation-folder/moeda/" />
         <folder expanded="1" path="animation-folder/coracao/" />
+        <folder expanded="1" path="animation-folder/beiral_grama/" />
+        <folder expanded="1" path="animation-folder/ponto_reta/" />
+        <folder expanded="1" path="animation-folder/ponte_madeira/" />
+        <folder expanded="1" path="animation-folder/beiral_pedra/" />
+        <folder expanded="1" path="animation-folder/beiral_pedra_2/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
     </folders-expanded>
 </c2uistate>
