@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Layout 1</layout>
-        <event-sheet order="2">Event sheet 1</event-sheet>
+        <layout active="1" order="0">Layout 1</layout>
+        <event-sheet order="1">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,14 +29,28 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/heroi/" />
-        <folder expanded="1" path="animation-folder/animationhero/" />
         <folder expanded="1" path="animation-folder/moeda/" />
+        <folder expanded="1" path="animation-folder/heroanimation/" />
         <folder expanded="1" path="animation-folder/coracao/" />
-        <folder expanded="1" path="animation-folder/beiral_grama/" />
-        <folder expanded="1" path="animation-folder/ponto_reta/" />
         <folder expanded="1" path="animation-folder/ponte_madeira/" />
-        <folder expanded="1" path="animation-folder/beiral_pedra/" />
-        <folder expanded="1" path="animation-folder/beiral_pedra_2/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/ponte/" />
+        <folder expanded="1" path="animation-folder/tijolao/" />
+        <folder expanded="1" path="animation-folder/botao/" />
+        <folder expanded="1" path="animation-folder/fogueira/" />
+        <folder expanded="1" path="animation-folder/ponte_cai/" />
+        <folder expanded="1" path="animation-folder/seta/" />
+        <folder expanded="1" path="animation-folder/bola_fogo/" />
+        <folder expanded="1" path="animation-folder/arbusto/" />
+        <folder expanded="1" path="animation-folder/cactus/" />
+        <folder expanded="1" path="animation-folder/bandeira/" />
+        <folder expanded="1" path="animation-folder/estrela/" />
+        <folder expanded="1" path="animation-folder/chave/" />
+        <folder expanded="1" path="animation-folder/cogumelo/" />
+        <folder expanded="1" path="animation-folder/abeia/" />
+        <folder expanded="1" path="animation-folder/cubo/" />
+        <folder expanded="1" path="animation-folder/lesma/" />
+        <folder expanded="1" path="animation-folder/slime/" />
+        <folder expanded="1" path="animation-folder/entrada/" />
+        <folder expanded="1" path="animation-folder/saida/" />
     </folders-expanded>
 </c2uistate>
